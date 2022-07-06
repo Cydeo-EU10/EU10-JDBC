@@ -55,6 +55,7 @@ public class jdbc_examples {
 
         //how to find how many rows we have for the query
         //move to last row
+        //test
         resultSet.last();
 
         //get the row count
