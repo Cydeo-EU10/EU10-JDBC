@@ -1,5 +1,6 @@
 select * from users where firstname='Ase';
 
+
 select firstname, lastname, role from users where firstname='Ase';
 -- joined users table with team table
 select firstname, lastname, role, t.name,t.batch_number  from users u
